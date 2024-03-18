@@ -5,4 +5,3 @@ public interface Iterator {
 
     boolean hasMore();
 }
-

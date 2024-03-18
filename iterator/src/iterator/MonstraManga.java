@@ -1,7 +1,5 @@
 package iterator;
 
-import iterator2.Iterator;
-
 public class MonstraManga {
     public static void main(String[] args) {
         MangaItem[] mangaItens = new MangaItem[5];

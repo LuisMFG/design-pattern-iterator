@@ -1,7 +1,5 @@
 package iterator;
 
-import iterator2.Iterator;
-
 public class MangaIterator implements Iterator {
     MangaItem[] itens;
     int i = 0;
