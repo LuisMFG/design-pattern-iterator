@@ -1,4 +1,4 @@
-package iterator2;
+package iterator3;
 
 public interface Iterator {
     Object getNext();
