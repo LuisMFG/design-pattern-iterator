@@ -22,6 +22,17 @@ public class MostraLista {
 
         }
 
+        System.out.println("-------------------------------------------------");
+
+        Iterator iteratorDecrescente = new IteratorListaDecrescente(lista);
+
+        while (iteratorDecrescente.hasMore()) {
+            Object elementoListaDecrescente = iteratorDecrescente.getNext();
+
+            System.out.println("Numero atual: " + elementoListaDecrescente);
+
+        }
+
     }
 
 }

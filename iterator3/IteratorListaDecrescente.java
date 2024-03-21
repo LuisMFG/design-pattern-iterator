@@ -2,25 +2,25 @@ package iterator3;
 
 import java.util.ArrayList;
 
-public class IteratorLista implements Iterator {
+public class IteratorListaDecrescente implements Iterator {
     ArrayList<Integer> lista;
     int i;
 
-    IteratorLista(ArrayList<Integer> lista) {
+    IteratorListaDecrescente(ArrayList<Integer> lista) {
         this.lista = lista;
-        this.i = 0;
+        this.i = lista.size() - 1;
 
     }
 
     @Override
     public boolean hasMore() {
-        return i < lista.size();
+        return i >= 0;
 
     }
 
     @Override
     public Object getNext() {
-        return lista.get(i++);
+        return lista.get(i--);
 
     }
 
