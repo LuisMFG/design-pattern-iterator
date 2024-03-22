@@ -1,6 +1,6 @@
-## Iterator (Padrao de Projeto)
+# Iterator (Padrao de Projeto)
 
-# Discentes: Luis Marcelo e Vitoria Oliveira
+## Discentes: Luis Marcelo e Vitoria Oliveira
 
 O Iterator é um padrão de projeto comportamental que permite a você percorrer elementos de uma coleção sem expor as representações dele (lista, pilha, árvore, etc.)
 
